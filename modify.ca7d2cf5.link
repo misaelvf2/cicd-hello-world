@@ -1,0 +1,31 @@
+{
+ "signatures": [
+  {
+   "keyid": "ca7d2cf5e81a87029c3ee45410f2cce4e13216ce743c314b9d45b31643ac7df6",
+   "sig": "676b538e37754fb45b2978d53b16f776ba83d1fe0f47eca3b1c7086e3ccb036ccf158fa6ddde648c2fe0d26c4047e454665e7a53fce67de309057ba960cb7f39bf3e0b6e2c4effd26f9fea56cef4de328846e8ee8b26e09284e938135cfc87ca411fd9ae74664a6081ce48fb8429a94323668a48c742f8d28153df375fcb42d754f3efc47ff3fa62b8babbd89cabc73e80996a957d5390d01e41b19eb8bc8c8650826accf1f0a0001f815621358b7dee25e51f73f059cdde2cfd667b3e969b4623216d982cecebf1da66ff09359eb98118190e85cd9ea4d9462c3543f39354bcb7026974029777cb742e7fb8b5937adcd9557a85b0dc990bc54c57f18fe4ea9c1d1cafcdffdfac709598d12ed527cc6eecd7d8d511ed1530152077e3de9dac0a3d87137ab977a8a56dfb8036be8f34871afadba78d758e75dd64f50b677a4335934ce6084a67f2c717c3693aa107e958e17062e63dec8fa788c3c1aa8df5e24200a703a98f4227407a616c0135cb5c7efab9e9c661bdaf3aa08c84931b7391ae"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {},
+  "command": [],
+  "environment": {},
+  "materials": {
+   "cicd-hello-world/hello_world/BUILD": {
+    "sha256": "9799b57079ccd3193b44d897e841ec30b1a3b18ef8ed6522fe0e8621159ad135"
+   },
+   "cicd-hello-world/hello_world/hello-world.cc": {
+    "sha256": "5e35085420099d67bfb3624338b2a150d9dee6bb3d5fff4e930643d63d2788b5"
+   }
+  },
+  "name": "modify",
+  "products": {
+   "cicd-hello-world/hello_world/BUILD": {
+    "sha256": "9799b57079ccd3193b44d897e841ec30b1a3b18ef8ed6522fe0e8621159ad135"
+   },
+   "cicd-hello-world/hello_world/hello-world.cc": {
+    "sha256": "48debe6827dc029a589c6891edc3edc6356f9df0e6c7637d9abb672482982daf"
+   }
+  }
+ }
+}

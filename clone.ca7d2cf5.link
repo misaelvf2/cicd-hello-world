@@ -1,0 +1,32 @@
+{
+ "signatures": [
+  {
+   "keyid": "ca7d2cf5e81a87029c3ee45410f2cce4e13216ce743c314b9d45b31643ac7df6",
+   "sig": "03bade7ce270a3decc6a8a4e775aff8e146f67dfbb7b416ef8cc706f1ed98f37d80622c9b37597c4d01555f777ff794094d8560b44d5f7f873ca0a7f1ec6fa7b0282702db0f8f0d1ddbef3d316f4e15959bfa3f36d62f4f68be4e4f59dab57f5279f39781db0c49b2ffe8b0373109516034e502fcf8b03d9b304da4cd89b5f8b31dcd0c872c7a26568f5812ccdb066cbed606a0e052a0cc4bdda0ff7340b7bc14c0bf157ee0b24ccbe3c331b596a9bc35ace699ab41c39c6232f36afbeafc6bca6000f6a14f19e1921a239bd2b08601bcbb69791a9f6d573f467653088e6309c5317f00bda1c57e01d5b002bb4003eae0e3a1606d59e5b49705ef6f3b595df73300fcf7e6486b863de90a1a0aa14106406cfe36d406c7400de56519bd57e8fe4fc7ffeb1e6a2c20e877602180fd9c97ea92c1d116175a2db1946b0a6009da6d4a425c16c7853ad2e0853cf1b9bce997e8edb1efc6e32bafa94538dade24a2c06ebae7cef5c52cba5f3a699e9d8b8a3d25cf8abcf6b4300a611a99961b379b593"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {
+   "return-value": 0,
+   "stderr": "",
+   "stdout": ""
+  },
+  "command": [
+   "git",
+   "clone",
+   "https://github.com/misaelvf2/cicd-hello-world.git"
+  ],
+  "environment": {},
+  "materials": {},
+  "name": "clone",
+  "products": {
+   "cicd-hello-world/hello_world/BUILD": {
+    "sha256": "9799b57079ccd3193b44d897e841ec30b1a3b18ef8ed6522fe0e8621159ad135"
+   },
+   "cicd-hello-world/hello_world/hello-world.cc": {
+    "sha256": "5e35085420099d67bfb3624338b2a150d9dee6bb3d5fff4e930643d63d2788b5"
+   }
+  }
+ }
+}
