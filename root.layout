@@ -1,0 +1,179 @@
+{
+ "signatures": [
+  {
+   "keyid": "bdaa2f2f04b2df00e6a2231862503258701f43778d6fc051e0cec3f6d0bbf289",
+   "sig": "07a855b4496b174cf59d44f2befb1280ccfa287c48adb519ce36a0b949523a561fb627cdc59737c1a36a7852da3c3cd65fa13a4b73a7541a22ae551774ecf03b99e2dbf70218de996396bc34739206bde96ae1ab5d5cf81f5e3a6857318315906588f6bd4e112db050b42fde8e4e39af28a956adf292fd3296b7a6801802638d193ee800a0ba7307a4e5ea151c3edde34670ea42ba90445d4a275c9876b18aae08c5626e34a077d29e85dc3b7993d6a1a040778658c6b4992930173043840a58e3b9797898f2d59d748ecc897c321fdc517ce63a8fb41423c638a8279194e422fbf199b748d6ed4dba948ac0310ccc01dd1f6248ba365d33f6234729be4ac093c8ff044b3bbfdcd5377783d3ec00261eb72c1a1d8ffa21c63b0d3189a76e4749fc00a4b805a11753fb2c1b97a405a0a373e7ccce50c0f7cfb33bd53cd36e79c7ae846a7b053a6882eeb58b0cf353ae628758526b076fc979a1bd1ff97eeb20ebd12ca1e6e576ebef1261a5e0def1f92db79ee1a43a0c7887c94dc7468dd7181a"
+  }
+ ],
+ "signed": {
+  "_type": "layout",
+  "expires": "2021-12-18T01:42:53Z",
+  "inspect": [
+   {
+    "_type": "inspection",
+    "expected_materials": [
+     [
+      "MATCH",
+      "cicd-hello-world.tar.gz",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "package"
+     ]
+    ],
+    "expected_products": [
+     [
+      "MATCH",
+      "cicd-hello-world/hello_world/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "modify"
+     ]
+    ],
+    "name": "untar",
+    "run": [
+     "tar",
+     "xzf",
+     "cicd-hello-world.tar.gz"
+    ]
+   }
+  ],
+  "keys": {
+   "2b771c1258a928c2337dc8d09012c2363743283e38d79f88b3d919a46cefea74": {
+    "keyid": "2b771c1258a928c2337dc8d09012c2363743283e38d79f88b3d919a46cefea74",
+    "keyid_hash_algorithms": [
+     "sha256",
+     "sha512"
+    ],
+    "keytype": "rsa",
+    "keyval": {
+     "private": "",
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA1Jk1RdS8Vp2Tsl/K8V9A\nJ/sPY0oGtuFZV+yfLQQ4aARlB0ux/4TZvK0MLLR6VqYIZwahp0oBtCbIYL5fehO0\nY6bb8eq57Q3d1s3RFqbrwoqMdso1l9WZTSqp/Vkfneeuzp0J4zME7ZeecTVZoZAo\nS3tAInS+vo2WRu6bqB6CrOHri3YbIvp1tq+m/R+4T1idyn3odMMJIRlKcn1MdPtP\nsRSgwifyAgMUu0DCnzBJl6bxaBZb8hJHRI2Wk9kZ5rTvjvAWYF59KuIQu6jF7yvE\n2bAowTrkIAL3FgUQziR5fqaCIIMjKRxKKZccrQOIIxG1GqyKJnlZ0u5+rtdsZdi/\nHK21ScHd7MhpEb4thHdDSTqEB17+sMf7SJkoMkQqbO2ECMZGIyO++6DWCMjX2Ytb\n0MhHXtZVJnJcRFfEmC9ubVgPRVcFCv3NuL0AIyOHZ8bQ4so3nF7a+WurVTQvBBi/\n2bqPfJJZF5DEGZms4ytNRyuxXr6E3IK2r10ZE0q9y/t3AgMBAAE=\n-----END PUBLIC KEY-----"
+    },
+    "scheme": "rsassa-pss-sha256"
+   },
+   "d096bd09e97f8f06a265735bbe1e0076a073e919462730a11f610ffa9825c1aa": {
+    "keyid": "d096bd09e97f8f06a265735bbe1e0076a073e919462730a11f610ffa9825c1aa",
+    "keyid_hash_algorithms": [
+     "sha256",
+     "sha512"
+    ],
+    "keytype": "rsa",
+    "keyval": {
+     "private": "",
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAqL5ocL79bDZkaDxgUMNm\nIb5zjXMSnWLQGmz26hyip+TQpRWsTu23zLbj9POHEQFvSexUJhR7dKL+/xcX5mI1\nKMUVCrLpyOspfcNXnQAzwIpFMHDqMawn1dxLD5OLdWjcEtNa/m02P8pBX4cBjvKm\nxOjsEPDF1CgoKN/vf0s/bRjwCsFYBFaOdOzV6NqXX72x/rs7d29YyLdnPS+E16PT\nmgH7OZFTekYJe7LrTmxH+VAI0+S9lIaQxfuILuhilfhurdA6s1iKDkLvtY4IWHAr\nboSq6heGejeNxCn6gbQ3tytlOpeMJW1Nudqh19HghzoAugaKq1KzgV74DP92gGE8\nYJcySS4j3x9d52HCEKfwHfD5QRxHr900oqicYhvJs9HZICd32D+ozRj6NRc0oBLX\nZhNYfjcyhNuWwVMoyp8aypaXcdyGJ31Bs9cwD4imWn7G2OkuXCSCEgtsZtVm6PYV\nP+xoTL+BzOxwr3dsPIwf6xyVIjbx8ZSk9BGqBFJTrgPhAgMBAAE=\n-----END PUBLIC KEY-----"
+    },
+    "scheme": "rsassa-pss-sha256"
+   }
+  },
+  "readme": "",
+  "steps": [
+   {
+    "_type": "step",
+    "expected_command": [
+     "git",
+     "clone",
+     "https://github.com/misaelvf2/cicd-hello-world.git"
+    ],
+    "expected_materials": [],
+    "expected_products": [
+     [
+      "CREATE",
+      "cicd-hello-world/hello_world/BUILD"
+     ],
+     [
+      "CREATE",
+      "cicd-hello-world/hello_world/hello-world.cc"
+     ],
+     [
+      "DISALLOW",
+      "cicd-hello-world/hello_world/*"
+     ]
+    ],
+    "name": "clone",
+    "pubkeys": [
+     "d096bd09e97f8f06a265735bbe1e0076a073e919462730a11f610ffa9825c1aa"
+    ],
+    "threshold": 1
+   },
+   {
+    "_type": "step",
+    "expected_command": [],
+    "expected_materials": [
+     [
+      "MATCH",
+      "cicd-hello-world/hello_world/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "clone"
+     ],
+     [
+      "DISALLOW",
+      "cicd-hello-world/hello_world/*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "ALLOW",
+      "cicd-hello-world/hello_world/BUILD"
+     ],
+     [
+      "ALLOW",
+      "cicd-hello-world/hello_world/hello-world.cc"
+     ],
+     [
+      "DISALLOW",
+      "cicd-hello-world/hello_world/*"
+     ]
+    ],
+    "name": "modify",
+    "pubkeys": [
+     "d096bd09e97f8f06a265735bbe1e0076a073e919462730a11f610ffa9825c1aa"
+    ],
+    "threshold": 1
+   },
+   {
+    "_type": "step",
+    "expected_command": [
+     "tar",
+     "--exclude",
+     ".git",
+     "-zcvf",
+     "cicd-hello-world.tar.gz",
+     "bazel-test"
+    ],
+    "expected_materials": [
+     [
+      "MATCH",
+      "cicd-hello-world/hello_world/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "modify"
+     ],
+     [
+      "DISALLOW",
+      "cicd-hello-world/hello_world/*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "CREATE",
+      "cicd-hello-world.tar.gz"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "package",
+    "pubkeys": [
+     "2b771c1258a928c2337dc8d09012c2363743283e38d79f88b3d919a46cefea74"
+    ],
+    "threshold": 1
+   }
+  ]
+ }
+}
