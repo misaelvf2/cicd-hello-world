@@ -14,9 +14,9 @@ COPY . /workdir
 
 # RUN apt install bazel -y
 
-RUN ["bazel", "build", "//test:hello-world"]
+RUN ["bazel", "build", "//hello_world:hello-world"]
 
-ENTRYPOINT ["bazel-bin/test/hello-world"]
+ENTRYPOINT ["bazel-bin/hello_world/hello-world"]
 
 # ENTRYPOINT ["./bazel-bin/hello_world/hello_world_sgx_sim"]
 # CMD ["World!"]
